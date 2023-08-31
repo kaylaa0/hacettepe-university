@@ -1,0 +1,17 @@
+CREATEHALL bighall 15x15
+CREATEHALL smallhall 7x7
+CREATEHALL smallhall 7x7
+SELLTICKET ayse student smallhall B3 B4-6 C2-5
+SELLTICKET mehmet full smallhall A3 B4-6 E4-6
+SELLTICKET selman full smallhall E5
+SELLTICKET ozlem student smallhall G3 B1-3
+SELLTICKET nuri full smallhall G5-12
+BALANCE smallhall bighall
+SHOWHALL smallhall
+CANCELTICKET smallhall C4
+CANCELTICKET smallhall B3
+CANCELTICKET smallhall E2 E7-19
+CANCELTICKET smallhall G2-4
+BALANCE smallhall bighall
+SHOWHALL smallhall
+SHOWHALL bighall

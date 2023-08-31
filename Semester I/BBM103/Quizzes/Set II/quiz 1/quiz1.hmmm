@@ -1,0 +1,14 @@
+0 nop # Kayla Akyüz 21726914 Hacettepe University
+1 setn r10 -10 # Seting gravity constant
+2 setn r11 2 # Setting 2 as an integer
+3 read r1 # Reading fallingTime input
+4 read r2 # Reading initialPosition input
+5 read r3 # Reading initialVelocity input
+6 mul r4 r1 r1 # Getting square of fallingTime
+7 mul r5 r4 r10 # Multiplaying square of fallingTime with gravity constant
+8 div r4 r5 r11 # Dividing result of previous calculation with 2
+9 mul r5 r1 r3 # Multiplaying initalVelocity and fallingTime
+10 add r6 r5 r4 # Adding all results together
+11 add r4 r2 r6 # Adding all results together
+12 write r4 # Printing results
+13 halt # Stopping

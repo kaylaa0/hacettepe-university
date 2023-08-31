@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+ Hacettepe University
+ Kayla Akyüz
+ 21726914
+-->
+
+<html lang="">
+  <head>
+    <style>
+      html,
+      body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+      }
+      body {
+        background-color: #202020;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      canvas {
+        border: 5px solid black;
+      }
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .buttons_div {
+        width: 20%;
+        justify-content: flex-start;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .buttons_div > button {
+        margin-right: 5px;
+      }
+    </style>
+    <title>Experiment 3 Part 2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/shaders.js" defer></script>
+    <script src="js/some.js" defer></script>
+    <script src="js/initialize.js" defer></script>
+    <script src="js/primitives.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div>BBM414: Experiment 3 Part 2: Further Animated Mask Emoji</div>
+    <div>Kayla Akyüz</div>
+    <div>21726914</div>
+    <div class="buttons_div">
+      <button onclick="startSpin()">Start Spin</button>
+      <button onclick="stopSpin()">Stop Spin</button>
+      <input
+        type="number"
+        onchange="spinInputHandler();"
+        onkeypress="this.onchange();"
+        onpaste="this.onchange();"
+        oninput="this.onchange();"
+        value="1"
+        id="spinInput"
+      />
+    </div>
+    <div class="buttons_div">
+      <button onclick="startScale()">Start Scale</button>
+      <button onclick="stopScale()">Stop Scale</button>
+    </div>
+    <div class="buttons_div">
+      <button onclick="startSpiral()">Start Spiral</button>
+      <button onclick="stopSpiral()">Stop Spiral</button>
+      <input
+        type="number"
+        onchange="spiralInputHandler();"
+        onkeypress="this.onchange();"
+        onpaste="this.onchange();"
+        oninput="this.onchange();"
+        value="1"
+        id="spiralInput"
+        min="-10"
+        max="10"
+      />
+    </div>
+    <div><canvas id="glCanvas" width="700" height="700"></canvas></div>
+  </body>
+</html>

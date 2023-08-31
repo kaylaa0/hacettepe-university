@@ -1,0 +1,39 @@
+# Hacettepe University
+# Kayla Akyüz
+# 21726914
+0 setn r10 -10 # Setting gravity constant
+1 setn r11 2 # Setting this number because it is in formula and we need it
+2 read r1 # First input is for duration of falling time
+3 read r3 # Second input is for initial (starting) position of the object
+4 read r2 # Third input is for initial (starting) velocity of the object 
+# positive (+) input for upward velocity, negative (-) input for downward velocity
+5 copy r4 r1 # Calculating
+6 mul r5 r1 r4 # Calculating
+7 mul r6 r5 r10 # Calculating
+8 div r5 r6 r11 # Calculating
+9 jeqzn r2 12 # Skipping some steps if initial velocity is 0
+10 mul r6 r1 r2 # Calculating
+11 add r5 r5 r6 # Calculating
+12 jeqzn r3 14 # Skipping a step if initial position is 0
+13 add r5 r5 r3 # Calculating
+14 nop # Empty space
+15 nop # Empty space
+16 nop # Empty space
+17 copy r1 r9 # Cleaning out
+18 copy r2 r9 # Cleaning out
+19 copy r3 r9 # Cleaning out
+20 copy r4 r9 # Cleaning out
+21 nop # Empty space
+22 copy r6 r9 # Cleaning out
+23 nop # Empty space
+24 nop # Empty space
+25 write r5 # Writing out the final position of the object
+26 read r1 # Right here the machine asks you for an input.
+27 jnezn r1 30 # If input is 0 machine will show you the result and stop.
+28 halt # 
+29 nop # 
+30 copy r8 r9 # If input is something other than zero machine will reset.
+31 jumpn 2 # The purpose is:
+# If you want to make another calculation you won't need to rerun the program.
+#
+#

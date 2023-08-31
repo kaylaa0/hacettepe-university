@@ -1,0 +1,66 @@
+Hall 'bighall' having 225 seats has been created
+Hall 'smallhall' having 49 seats has been created
+Warning: Cannot create the hall for the second time. The cinema has already smallhall
+Success: ayse has bought B3 at smallhall
+Success: ayse has bought B4-6 at smallhall
+Success: ayse has bought C2-5 at smallhall
+Success: mehmet has bought A3 at smallhall
+Warning: The seats B4-6 cannot be sold to mehmet due some of them have already been sold!
+Success: mehmet has bought E4-6 at smallhall
+Warning: The seat E5 cannot be sold to selman since it was already sold!
+Success: ozlem has bought G3 at smallhall
+Success: ozlem has bought B1-3 at smallhall
+Error: The hall 'smallhall' has less column than the specified index G5-12!
+Hall report of 'smallhall'
+-------------------------
+Sum of students = 45, Sum of full fares = 30, Overall = 75
+Hall report of 'bighall'
+-------------------------
+Sum of students = 0, Sum of full fares = 0, Overall = 0
+Printing hall layout of smallhall
+G X  X  X  S  X  X  X
+F X  X  X  X  X  X  X
+E X  X  X  X  F  F  X
+D X  X  X  X  X  X  X
+C X  X  S  S  S  X  X
+B X  S  S  S  S  S  X
+A X  X  X  F  X  X  X
+  0  1  2  3  4  5  6
+Success: The seat C4 at smallhall has been canceled and now ready to be sold again
+Success: The seat B3 at smallhall has been canceled and now ready to be sold again
+Error: The seat E2 at smallhall has already been free! Nothing to cancel
+Error: The hall 'smallhall' has less column than the specified index E7-19!
+Error: The seat G2 at smallhall  has already been free! Nothing to cancel
+Success: The seat G3 at smallhall has been canceled and now ready to sell again
+Hall report of 'smallhall'
+-------------------------
+Sum of students = 30, Sum of full fares = 30, Overall = 60
+Hall report of 'bighall'
+-------------------------
+Sum of students = 0, Sum of full fares = 0, Overall = 0
+Printing hall layout of smallhall
+G X  X  X  X  X  X  X
+F X  X  X  X  X  X  X
+E X  X  X  X  F  F  X
+D X  X  X  X  X  X  X
+C X  X  S  S  X  X  X
+B X  S  S  X  S  S  X
+A X  X  X  F  X  X  X
+  0  1  2  3  4  5  6
+Printing hall layout of bighall
+O X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+N X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+M X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+L X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+K X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+J X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+I X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+H X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+G X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+F X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+E X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+D X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+C X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+B X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+A X  X  X  X  X  X  X  X  X  X  X  X  X  X  X
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14

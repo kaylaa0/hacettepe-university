@@ -1,0 +1,31 @@
+Message 1
+9	0	Many artists lived in the Greenwich Village area of New York.
+9	1	Two young women named Sue and Johnsy shared a studio apartment at the top of a three-story building.
+9	2	Johnsy's real name was Joanna.
+9	3	In November, a cold, unseen stranger came to visit the city.
+9	4	This disease, pneumonia, killed many people. Johnsy lay on her bed, hardly moving.
+9	5	She looked through the small window.
+9	6	She could see the side of the brick house next to her building.
+9	7	One morning, a doctor examined Johnsy and took her temperature.
+9	8	Then he spoke with Sue in another room.
+Message 2
+159	0	I went up to my room and looked out the window.
+159	1	It was ten oclock but the town was silent.
+159	2	"A nice quiet place," I said to myself as I got ready for bed.
+159	3	Just an ordinary, sleepy southern town."
+159	4	I was born in the south myself.
+159	5	But I live in New York now.
+159	6	I write for a large magazine. My boss had asked me to go to Nashville.
+159	7	The magazine had received some stories and poems from a writer in Nashville, named Azalea Adair.
+159	8	The editor liked her work very much.
+159	9	The publisher asked me to get her to sign an agreement to write only for his magazine.
+159	10	I left the hotel at nine oclock the next morning to find Miss Adair.
+159	11	It was still raining. As soon as I stepped outside I met Uncle Caesar.
+159	12	He was a big, old black man with fuzzy gray hair.
+Message 3
+1458	0	She lived in his house.
+1458	2	She's a quiet thing…musical… the daughter of somebody who was unlucky enough to be his friend.
+1458	3	I forgot to say that she was in on the ring and ten dollar joke, too.
+1458	4	I wish I had been.
+1458	6	Then I could have had two bottles of wine, given the ring to the waiter and had the whole business off my hands.
+1458	7	Now tell me what a man can do with a thousand dollars."
